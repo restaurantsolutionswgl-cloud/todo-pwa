@@ -4,8 +4,8 @@
   --text-strong: #111827;
   --muted: #6b7280;
   --border: #e5e7eb;
-  --accent: #ec4899;
-  --accent-soft: #fce7f3;
+  --accent: #111111;
+  --accent-soft: #e5e7eb;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   color: var(--text-strong);
@@ -23,8 +23,8 @@
     --text-strong: #f3f4f6;
     --muted: #9ca3af;
     --border: #263043;
-    --accent: #f472b6;
-    --accent-soft: rgba(244, 114, 182, 0.15);
+    --accent: #f3f4f6;
+    --accent-soft: rgba(255, 255, 255, 0.12);
   }
 }
 
