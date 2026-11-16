@@ -1,0 +1,35 @@
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --text-strong: #111827;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --accent: #ec4899;
+  --accent-soft: #fce7f3;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--text-strong);
+  background: var(--bg);
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b1220;
+    --surface: #121a2b;
+    --text-strong: #f3f4f6;
+    --muted: #9ca3af;
+    --border: #263043;
+    --accent: #f472b6;
+    --accent-soft: rgba(244, 114, 182, 0.15);
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; }
+#root { min-height: 100vh; }
+button, input { font: inherit; }
+button { -webkit-tap-highlight-color: transparent; }
