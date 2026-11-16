@@ -53,7 +53,7 @@ export default function App() {
     <main className="app">
       <header className="header">
         <div>
-          <h1>To-Do</h1>
+          <h1>Bin laden</h1>
           <p className="subtitle">Simple, responsive, and installable.</p>
         </div>
         <span className="badge" aria-live="polite">{remaining} left</span>
